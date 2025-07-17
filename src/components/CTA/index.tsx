@@ -12,9 +12,10 @@ export default function HomepageSections(): JSX.Element {
         <div className="row">
           <div className="col col--8 padding--lg">
             <p className={clsx("hero__subtitle", styles.heroSubtitle)}>
-              OrioleDB is a PostgreSQL extension that combines the advantages of
-              both on-disk and in-memory engines. It uses PostgreSQL pluggable
-              storage to increase performance and cut costs.
+              Multigres is Vitess for Postgre: a horizontally scalable Postgres
+              architecture that supports multi-tenant, multi-writer, and
+              globally distributed deployments, all while staying true to
+              standard Postgres.
             </p>
           </div>
           <div className="col col--4 padding--lg">

@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic"
 
 const config: Config = {
   title: "Multigres",
-  tagline: "The cloud-native storage engine for PostgreSQL",
+  tagline: "Vitess for Postgres",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
