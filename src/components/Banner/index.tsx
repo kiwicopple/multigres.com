@@ -14,7 +14,7 @@ export default function HomepageBanner(): React.JSX.Element {
     >
       <div className="container">
         <div className="row">
-          <div className="col col--6">
+          <div className="col col--8">
             <Heading as="h2" className={clsx('hero__title', styles.heroTitle)}>
               {siteConfig.tagline}
             </Heading>
