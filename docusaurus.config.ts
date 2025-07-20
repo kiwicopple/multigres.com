@@ -60,9 +60,9 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/logo-vertical.png",
-    defaultMode: "light",
+    defaultMode: "dark",
     colorMode: {
-      defaultMode: "light",
+      defaultMode: "dark",
       disableSwitch: true,
       respectPrefersColorScheme: false,
     },

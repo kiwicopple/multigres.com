@@ -4,8 +4,6 @@ import Layout from "@theme/Layout"
 import Banner from "@site/src/components/Banner"
 import HomepageFeatures from "@site/src/components/HomepageFeatures"
 
-import CTA from "@site/src/components/CTA"
-
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext()
   return (

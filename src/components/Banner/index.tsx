@@ -8,7 +8,9 @@ import styles from "./styles.module.css"
 export default function HomepageBanner(): JSX.Element {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <header
+      className={clsx("hero hero--primary shadow--md", styles.heroBanner)}
+    >
       <div className="container">
         <div className="row">
           <div className="col col--6">

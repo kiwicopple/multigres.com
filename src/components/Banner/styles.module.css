@@ -1,50 +1,48 @@
 .heroBanner {
-    padding: 4rem 0;
-    position: relative;
-    overflow: hidden;
+  padding: 4rem 0;
+  position: relative;
+  overflow: hidden;
 }
 
-
 .buttons {
-    display: flex;
-    /* add some spacing between elements */
-    gap: 1rem;
-
+  display: flex;
+  /* add some spacing between elements */
+  gap: 1rem;
 }
 
 .secondaryButton {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .secondaryButton:hover {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 @media screen and (max-width: 996px) {
-    .heroBanner {
-        padding: 2rem 0.5rem !important;
-    }
+  .heroBanner {
+    padding: 2rem 0.5rem !important;
+  }
 
-    .heroTitle {
-        font-size: 2rem;
-    }
+  .heroTitle {
+    font-size: 2rem;
+  }
 
-    .heroSubtitle {
-        font-size: 1rem;
-    }
+  .heroSubtitle {
+    font-size: 1rem;
+  }
 
-    .heroBanner {
-        padding: 1rem;
-    }
+  .heroBanner {
+    padding: 1rem;
+  }
 
-    .heroImageContainer {
-        padding: 2rem 0;
-    }
+  .heroImageContainer {
+    padding: 2rem 0;
+  }
 
-    .primaryButton {
-        width: 100%;
-    }
-    .secondaryButton {
-        display: none;
-    }
+  .primaryButton {
+    width: 100%;
+  }
+  .secondaryButton {
+    display: none;
+  }
 }
