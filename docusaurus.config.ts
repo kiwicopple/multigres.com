@@ -49,10 +49,6 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        gtag: {
-          trackingID: 'G-Z0YJ7PVPVH',
-          anonymizeIP: true,
-        },
       } satisfies Preset.Options,
     ],
   ],
@@ -73,7 +69,7 @@ const config: Config = {
         src: 'img/logo-horizontal.png',
       },
       items: [
-        { to: '/docs/intro', label: 'Docs', position: 'right' },
+        { to: '/docs', label: 'Docs', position: 'right' },
         { to: '/blog', label: 'Blog', position: 'right' },
         {
           href: 'https://github.com/multigres/multigres',
