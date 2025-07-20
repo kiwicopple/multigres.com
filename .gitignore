@@ -4,10 +4,6 @@ node_modules
 # Production
 /build
 
-# Fetched from main repository
-/docs
-/static/images
-
 # Generated files
 .docusaurus
 .cache-loader
