@@ -1,18 +1,19 @@
-import clsx from "clsx"
-import Heading from "@theme/Heading"
-import styles from "./styles.module.css"
-import { icons } from "lucide-react"
+import React from 'react'
+import clsx from 'clsx'
+import Heading from '@theme/Heading'
+import styles from './styles.module.css'
+import { icons } from 'lucide-react'
 
 type FeatureItem = {
   title: string
   icon: string
-  description: JSX.Element
+  description: React.JSX.Element
 }
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Horizontal Sharding",
-    icon: "Grid3x3",
+    title: 'Horizontal Sharding',
+    icon: 'Grid3x3',
     description: (
       <>
         Split large databases across multiple servers with automatic shard
@@ -21,8 +22,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "Connection Pooling",
-    icon: "Layers",
+    title: 'Connection Pooling',
+    icon: 'Layers',
     description: (
       <>
         Built-in connection pooling reduces overhead and improves performance
@@ -31,8 +32,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "Zero-Downtime Migrations",
-    icon: "Replace",
+    title: 'Zero-Downtime Migrations',
+    icon: 'Replace',
     description: (
       <>
         Seamlessly migrate tables between databases and Postgres versions
@@ -41,8 +42,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "High Availability",
-    icon: "Shield",
+    title: 'High Availability',
+    icon: 'Shield',
     description: (
       <>
         Automatic failover and replica promotion ensure your database stays
@@ -51,8 +52,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "Query Routing",
-    icon: "Waypoints",
+    title: 'Query Routing',
+    icon: 'Waypoints',
     description: (
       <>
         Smart query distribution across shards and replicas optimizes
@@ -61,8 +62,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "Cloud-Native Architecture",
-    icon: "Container",
+    title: 'Cloud-Native Architecture',
+    icon: 'Container',
     description: (
       <>
         Kubernetes-ready design with automated backups and cross-zone cluster
@@ -74,8 +75,8 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({ title, icon, description }: FeatureItem) {
   return (
-    <div className={clsx("col col--4 padding--md")}>
-      <div className={clsx("card shadow--md")}>
+    <div className={clsx('col col--4 padding--md')}>
+      <div className={clsx('card shadow--md')}>
         <div className="card__header ">
           <div className="">
             <Icon size={28} name={icon} />
@@ -93,10 +94,10 @@ function Feature({ title, icon, description }: FeatureItem) {
 const Icon = ({ name, size }) => {
   const LucideIcon = icons[name]
 
-  return <LucideIcon size={size} color={"#064089"} />
+  return <LucideIcon size={size} color={'#064089'} />
 }
 
-export default function HomepageFeatures(): JSX.Element {
+export default function HomepageFeatures(): React.JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
