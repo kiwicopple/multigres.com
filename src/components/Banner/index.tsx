@@ -44,13 +44,13 @@ export default function HomepageBanner(): React.JSX.Element {
               </Link>
             </div>
           </div>
-          <div className={clsx('col col--6', styles.heroImageContainer)}>
+          {/* <div className={clsx('col col--6', styles.heroImageContainer)}>
             <img
               className={styles.heroImage}
               src="/img/banner.png"
               alt="Multigres"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </header>

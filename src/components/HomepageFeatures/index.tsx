@@ -43,7 +43,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'High Availability',
-    icon: 'Shield',
+    icon: 'Network',
     description: (
       <>
         Automatic failover and replica promotion ensure your database stays
@@ -94,7 +94,7 @@ function Feature({ title, icon, description }: FeatureItem) {
 const Icon = ({ name, size }) => {
   const LucideIcon = icons[name]
 
-  return <LucideIcon size={size} color={'#064089'} />
+  return <LucideIcon size={size} style={{ color: 'grey' }} />
 }
 
 export default function HomepageFeatures(): React.JSX.Element {

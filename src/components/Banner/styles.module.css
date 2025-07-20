@@ -1,7 +1,8 @@
 .heroBanner {
-  padding: 4rem 0;
+  padding: 2rem 0;
   position: relative;
   overflow: hidden;
+  color: white var(--ifm-font-color-base-inverse);
 }
 
 .buttons {
@@ -10,25 +11,17 @@
   gap: 1rem;
 }
 
-.secondaryButton {
-  color: #fff !important;
-}
-
-.secondaryButton:hover {
-  color: #000 !important;
-}
-
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem 0.5rem !important;
   }
 
   .heroTitle {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .heroSubtitle {
-    font-size: 1rem;
+    font-size: 1.1em;
   }
 
   .heroBanner {
